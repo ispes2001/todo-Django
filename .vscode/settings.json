@@ -1,0 +1,30 @@
+{
+    "python.linting.enabled": true,
+    "sqltools.connections": [
+        {
+            "database": "blog",
+            "dialect": "PostgreSQL",
+            "name": "postgres",
+            "password": "popular123",
+            "port": 5432,
+            "server": "localhost",
+            "username": "postgres"
+        }
+    ],
+    "githubPullRequests.remotes": [
+        "origin",
+        "upstream",
+        "myfirstproject"
+    ],
+    "githubIssues.queries": [
+    
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ]
+}
